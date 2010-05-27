@@ -1,0 +1,57 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite">
+    <groups>
+    </groups>
+    <test name="Command line test">
+      <class name="org.codingkata.unit.IntegrationTest">
+        <test-method status="FAIL" signature="testKata()" name="testKata" duration-ms="20" started-at="2010-05-26T02:01:35Z" finished-at="2010-05-26T02:01:36Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<true> but was:<false>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at org.testng.Assert.fail(Assert.java:87)
+	at org.testng.Assert.failNotEquals(Assert.java:441)
+	at org.testng.Assert.assertTrue(Assert.java:35)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.codingkata.test.CommonIntegrationTest.testKata(CommonIntegrationTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:644)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:546)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:700)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1002)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:137)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:121)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:909)
+	at org.testng.TestRunner.privateRun(TestRunner.java:618)
+	at org.testng.TestRunner.run(TestRunner.java:499)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:299)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:204)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:915)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:879)
+	at org.testng.TestNG.run(TestNG.java:787)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:62)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:141)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
