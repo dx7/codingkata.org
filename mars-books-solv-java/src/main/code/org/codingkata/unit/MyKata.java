@@ -11,15 +11,10 @@ public class MyKata extends BaseKataSolution {
      */
     public int calcCheckDigit (String isbn) {
         int total = 0;
+        int[] coefficient = { 1, 3 };
 
         for (int i = 0; i < isbn.length(); i++) {
-            int digit = Integer.parseInt(String.valueOf(isbn.charAt(i)));
-
-            if (i % 2 == 1) {
-                total += digit * 3;
-            } else {
-                total += digit;
-            }
+            total += Character.getNumericValue(isbn.charAt(i)) * coefficient[i % 2];
         }
 
         return 10 - total % 10;
