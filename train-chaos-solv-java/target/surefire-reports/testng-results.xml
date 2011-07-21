@@ -6,7 +6,7 @@
     </groups>
     <test name="Command line test">
       <class name="org.codingkata.unit.IntegrationTest">
-        <test-method status="PASS" signature="testKata()" name="testKata" duration-ms="15" started-at="2011-07-21T20:31:59Z" finished-at="2011-07-21T20:31:59Z">
+        <test-method status="PASS" signature="testKata()" name="testKata" duration-ms="16" started-at="2011-07-21T20:34:29Z" finished-at="2011-07-21T20:34:29Z">
         </test-method>
       </class>
     </test>

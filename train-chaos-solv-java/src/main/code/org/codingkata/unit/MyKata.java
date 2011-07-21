@@ -3,7 +3,7 @@ package org.codingkata.unit;
 import org.codingkata.unit.api.BaseKataSolution;
 
 public class MyKata extends BaseKataSolution {
-    private Integer[] stack = new Integer[10];
+    private Integer[] stack = new Integer[5];
     private int top = -1;
 
     /**
