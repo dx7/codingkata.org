@@ -2,54 +2,54 @@
 ========================= DEBUG OUTPUT START ===============================
  ~~ Arriving at your booth: 'Senior with Grandson' ~~
 Today (FRI) they want to see a 95 min. long 3D movie from the parquet.
- -> 6 years old person buys a ticket
  -> 65 years old person buys a ticket
-
- ~~ Arriving at your booth: 'Group of Kids' ~~
-Today (SUN) they want to see a 91 min. long 3D movie from the parquet.
- -> 12 years old person buys a ticket
- -> 11 years old person buys a ticket
- -> 10 years old person buys a ticket
- -> 12 years old person buys a ticket
- -> 12 years old person buys a ticket
+ -> 6 years old person buys a ticket
 
  ~~ Arriving at your booth: 'Family of Four' ~~
 Today (SAT) they want to see a 89 min. long movie from the loge.
  -> 21 years old student buys a ticket
- -> 45 years old person buys a ticket
  -> 12 years old person buys a ticket
+ -> 45 years old person buys a ticket
  -> 46 years old person buys a ticket
 
- ~~ Arriving at your booth: 'Couple' ~~
-Today (THU) they want to see a 124 min. long movie from the parquet.
- -> 25 years old student buys a ticket
- -> 23 years old person buys a ticket
+ ~~ Arriving at your booth: 'Group of Kids' ~~
+Today (SUN) they want to see a 91 min. long 3D movie from the parquet.
+ -> 11 years old person buys a ticket
+ -> 12 years old person buys a ticket
+ -> 12 years old person buys a ticket
+ -> 12 years old person buys a ticket
+ -> 10 years old person buys a ticket
 
  ~~ Arriving at your booth: 'Student Course' ~~
 Today (THU) they want to see a 120 min. long movie from the parquet.
+ -> 23 years old student buys a ticket
  -> 21 years old student buys a ticket
- -> 23 years old student buys a ticket
- -> 22 years old student buys a ticket
- -> 22 years old student buys a ticket
- -> 23 years old student buys a ticket
+ -> 21 years old student buys a ticket
  -> 23 years old student buys a ticket
  -> 22 years old student buys a ticket
  -> 23 years old student buys a ticket
  -> 23 years old student buys a ticket
- -> 21 years old student buys a ticket
+ -> 23 years old student buys a ticket
+ -> 23 years old student buys a ticket
+ -> 22 years old student buys a ticket
+ -> 22 years old student buys a ticket
  -> 23 years old student buys a ticket
  -> 21 years old student buys a ticket
- -> 21 years old student buys a ticket
  -> 23 years old student buys a ticket
- -> 23 years old student buys a ticket
- -> 23 years old student buys a ticket
- -> 23 years old student buys a ticket
- -> 23 years old student buys a ticket
+ -> 22 years old student buys a ticket
  -> 55 years old person buys a ticket
  -> 21 years old student buys a ticket
  -> 23 years old student buys a ticket
  -> 22 years old student buys a ticket
  -> 23 years old student buys a ticket
+ -> 21 years old student buys a ticket
+ -> 21 years old student buys a ticket
+ -> 21 years old student buys a ticket
+
+ ~~ Arriving at your booth: 'Couple' ~~
+Today (THU) they want to see a 124 min. long movie from the parquet.
+ -> 25 years old student buys a ticket
+ -> 23 years old person buys a ticket
 
 ========================== DEBUG OUTPUT END ================================
 

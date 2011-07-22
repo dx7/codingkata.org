@@ -3,8 +3,8 @@ package org.codingkata.unit;
 import org.codingkata.unit.api.BaseKataSolution;
 
 public class MyKata extends BaseKataSolution {
-    private float price = 11.0f;
-    private int count = 0;
+    private float price;
+    private int count;
     private int runtime;
     private Day day;
     private boolean isParquet;
@@ -26,11 +26,6 @@ public class MyKata extends BaseKataSolution {
         this.day = day;
         this.isParquet = isParquet;
         this.is3D = is3D;
-        // if (runtime > 120) price += 1.5f;
-        // if (day.equals(Day.THU)) price -= 2.0f;
-        // if (day.equals(Day.SAT) || day.equals(Day.SUN)) price += 1.5f;
-        // if (!isParquet) price += 2.0f;
-        // if (is3D) price += 3.0f;
     }
 
     /**
@@ -40,14 +35,12 @@ public class MyKata extends BaseKataSolution {
      * @param isStudent     true if the ticket buyer is a student
      */
     public void addTicket(int age, boolean isStudent) {
-        float price = 11.0f;
-
-        if (isStudent) price = 8.0f;
-        if (age >= 65) price = 6.0f;
-        if (age < 13) price = 5.5f;
-
-        this.price += price;
         count++;
+
+        if (isStudent) price += 8;
+        else if (age >= 65) price += 6;
+        else if (age < 13) price += 5.5f;
+        else price += 11;
     }
 
     /**
@@ -56,15 +49,12 @@ public class MyKata extends BaseKataSolution {
      * @return  total in dollars
      */
     public float finishPurchase() {
-        if (count > 20) {
-            price = count * 6.0f;
-        }
-
-        price += count * (is3D ? 3 : 0);
-        price += count * (runtime > 120 ? 1.5f : 0);
-        price += count * (day.equals(Day.THU) && (count < 20) ? -2 : 0);
-        price += count * (day.equals(Day.SAT) || day.equals(Day.SUN) ? 1.5f : 0);
-        price += count * (isParquet ? 0 : 2);
+        if (count > 20) price = count * 6;
+        if (is3D) price += count * 3;
+        if (runtime > 120) price += count * 1.5f;
+        if (day.equals(Day.THU) && (count < 20)) price += count * -2;
+        if (day.equals(Day.SAT) || day.equals(Day.SUN)) price += count * 1.5f;
+        if (!isParquet) price += count * 2;
 
         return price;
     }

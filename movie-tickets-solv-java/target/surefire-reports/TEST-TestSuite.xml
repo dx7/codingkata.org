@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.296" errors="0" skipped="0" tests="1" name="TestSuite">
+<testsuite failures="0" time="0.29" errors="0" skipped="0" tests="1" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -22,7 +22,7 @@
     <property name="basedir" value="/Users/rafael/Projects/codingkata/movie-tickets-solv-java"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/rafael/Projects/codingkata/movie-tickets-solv-java/target/surefire/surefirebooter7144178034322123162.jar"/>
+    <property name="surefire.real.class.path" value="/Users/rafael/Projects/codingkata/movie-tickets-solv-java/target/surefire/surefirebooter1331954043024693786.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/5v/5vIhaEvvGQaIcjNLft+OJk+++TM/-Tmp-/"/>
     <property name="line.separator" value="
 "/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
-    <property name="sun.java.command" value="/Users/rafael/Projects/codingkata/movie-tickets-solv-java/target/surefire/surefirebooter7144178034322123162.jar /Users/rafael/Projects/codingkata/movie-tickets-solv-java/target/surefire/surefire7475561667292517262tmp /Users/rafael/Projects/codingkata/movie-tickets-solv-java/target/surefire/surefire7512995728144707622tmp"/>
+    <property name="sun.java.command" value="/Users/rafael/Projects/codingkata/movie-tickets-solv-java/target/surefire/surefirebooter1331954043024693786.jar /Users/rafael/Projects/codingkata/movie-tickets-solv-java/target/surefire/surefire8201920115529003792tmp /Users/rafael/Projects/codingkata/movie-tickets-solv-java/target/surefire/surefire3610797559778175095tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="apple.awt.CToolkit"/>
@@ -65,5 +65,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16t|*.169.254/16t"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.026" classname="org.codingkata.unit.IntegrationTest" name="testKata"/>
+  <testcase time="0.025" classname="org.codingkata.unit.IntegrationTest" name="testKata"/>
 </testsuite>
