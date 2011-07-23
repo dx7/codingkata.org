@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Command line test" failures="1" tests="1" time="0.037" errors="0">
+  <properties/>
+  <testcase name="testKata" time="0.018" classname="org.codingkata.unit.IntegrationTest">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;true&amp;gt; but was:&amp;lt;false&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<true> but was:<false>
+	at org.codingkata.test.CommonIntegrationTest.testKata(CommonIntegrationTest.java:17)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:60)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:106)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+... Removed 28 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>
