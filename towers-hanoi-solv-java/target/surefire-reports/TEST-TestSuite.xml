@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.325" errors="0" skipped="0" tests="1" name="TestSuite">
+<testsuite failures="0" time="0.286" errors="0" skipped="0" tests="1" name="TestSuite">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -22,7 +22,7 @@
     <property name="basedir" value="/Users/rafael/Projects/codingkata/towers-hanoi-solv-java"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/rafael/Projects/codingkata/towers-hanoi-solv-java/target/surefire/surefirebooter5233428793272479784.jar"/>
+    <property name="surefire.real.class.path" value="/Users/rafael/Projects/codingkata/towers-hanoi-solv-java/target/surefire/surefirebooter4604099560511995705.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/5v/5vIhaEvvGQaIcjNLft+OJk+++TM/-Tmp-/"/>
     <property name="line.separator" value="
 "/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
-    <property name="sun.java.command" value="/Users/rafael/Projects/codingkata/towers-hanoi-solv-java/target/surefire/surefirebooter5233428793272479784.jar /Users/rafael/Projects/codingkata/towers-hanoi-solv-java/target/surefire/surefire15840495435889539tmp /Users/rafael/Projects/codingkata/towers-hanoi-solv-java/target/surefire/surefire5280572184141237759tmp"/>
+    <property name="sun.java.command" value="/Users/rafael/Projects/codingkata/towers-hanoi-solv-java/target/surefire/surefirebooter4604099560511995705.jar /Users/rafael/Projects/codingkata/towers-hanoi-solv-java/target/surefire/surefire9078647551541952779tmp /Users/rafael/Projects/codingkata/towers-hanoi-solv-java/target/surefire/surefire7143606482399199904tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="apple.awt.CToolkit"/>
@@ -65,5 +65,5 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16t|*.169.254/16t"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.02" classname="org.codingkata.unit.IntegrationTest" name="testKata"/>
+  <testcase time="0.019" classname="org.codingkata.unit.IntegrationTest" name="testKata"/>
 </testsuite>
