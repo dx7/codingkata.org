@@ -10,7 +10,11 @@ public class MyKata extends BaseKataSolution {
      * @param skip      persons to skip each round
      */
     public int calcSurvivalPosition (int size, int skip) {
-        if (size == 1) return 2;
-        return (calcSurvivalPosition(size - 1, skip) + skip) % size;
+        return f(size, skip) + 1;
+    }
+
+    private int f (int size, int skip) {
+        if (size == 1) return 0;
+        return (f(size - 1, skip) + skip) % size;
     }
 }
