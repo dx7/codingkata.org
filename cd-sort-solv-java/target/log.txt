@@ -1,0 +1,25 @@
+
+========================= DEBUG OUTPUT START ===============================
+========================== DEBUG OUTPUT END ================================
+
+ ############################################################################
+ #############               _ _           _        _           #############
+ #############    __ ___  __| (_)_ _  __ _| |____ _| |_ __ _    #############
+ #############   / _/ _ \/ _` | | ' \/ _` | / / _` |  _/ _` |   #############
+ #############   \__\___/\__,_|_|_||_\__, |_\_\__,_|\__\__,_|   #############
+ #############                       |___/                      #############
+ #############                                 CODINGKATA.ORG   #############
+ ############################################################################
+ #                                                                          #
+ # Your Result: {'Abbey Road' 'Are You Experienced?' 'Astral Weeks' 'Blonde #
+ #   on Blonde' 'Blood on the Tracks' 'Born to Run' 'Exile on Main Street'  #
+ #   'Highway 61 Revisited' 'Kind of Blue' 'London Calling' 'Nevermind'     #
+ #   'Pet Sounds' 'Revolver' 'Rubber Soul' 'Sgt. Pepper' 'The Sun Sessions' #
+ #   'The White Album' 'Thriller' 'Velvet Underground and Nico' 'What's     #
+ #   Going On'}                                                             #
+ #                                                                          #
+ # Kata solved.                                                             #
+ # Well done, kohai!                                                        #
+ #                                                                          #
+ ############################################################################
+
